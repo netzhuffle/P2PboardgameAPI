@@ -1,0 +1,12 @@
+{
+  "source": "./src",
+  "destination": "./doc",
+  "access": ["public", "protected", "private"],
+  "test": {
+    "type": "mocha",
+    "source": "./test"
+  },
+  "manual": {
+    "installation": ["./manual/installation.md"]
+  }
+}
